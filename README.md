@@ -23,7 +23,7 @@ tail -f nohup.out
 ## 2. 使用 Docker 启动
 确保你已安装 Docker。使用以下命令构建镜像并运行容器：   
 ```bash
-docker run -d -p 39900:39900 -e PKC_USER=pkc -e PKC_PASSWORD=pkc --name pkc-ys curtinlv/pkc-ys
+docker run -d -p 39900:39900 -e PKC_USER=pkc -e PKC_PASSWORD=pkc --name pkc-ys MooseGellal/pkc-ys
 ```
 说明：  
 `PKC_USER=pkc  #用户名，默认pkc（可修改）`   
